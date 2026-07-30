@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+.header1{
+    background-color: rgb(15, 12, 12);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.company-name{
+    color: white;
+    font-size: 24px;
+}
+
+.company-name span{
+    color: orange;
+}
+
+.nav1{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#about,
+#menu,
+#Gallery,
+#reviews{
+    color: white;
+    transition: 0.3s;
+}
+
+#about:hover,
+#menu:hover,
+#Gallery:hover,
+#reviews:hover{
+    color: orange;
+}
+
+#visitus{
+    border-radius: 25px;
+    background-color: orange;
+    color: black;
+    height: 40px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+.info1{
+    background-color: #6f6a66;
+    padding: 60px 40px;
+}
+
+#text1{
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+#text2{
+    font-size: 90px;
+    color: white;
+    line-height: 1.1;
+    max-width: 900px;
+}
+
+#text3{
+    font-size: 22px;
+    color: antiquewhite;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+#button1,
+#button2{
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button1{
+    background-color: rgb(255, 196, 0);
+    border: none;
+}
+
+#button2{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+#button1:hover,
+#button2:hover,
+#visitus:hover,
+#submit1:hover{
+    transform: translateY(-3px);
+}
+
+/* HERO IMAGE */
+
+#photo1{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ABOUT */
+
+#text4,
+#text13,
+#text27,
+#text30{
+    font-size: 28px;
+    color: rgb(42, 73, 11);
+    text-align: center;
+    padding-top: 40px;
+}
+
+#text5{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#text6{
+    font-size: 22px;
+    color: rgb(52, 58, 54);
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.exp1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#text7,
+#text9,
+#text11{
+    font-size: 42px;
+    color: rgb(42, 73, 11);
+    font-weight: bold;
+}
+
+#text8,
+#text10,
+#text12{
+    font-size: 20px;
+}
+
+/* MENU */
+
+.bgclass2{
+    background-color: rgb(217, 214, 210);
+    margin-top: 80px;
+}
+
+#text14,
+#text28,
+#text31{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.box1{
+    width: 250px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.box1:hover{
+    transform: translateY(-8px);
+}
+
+#photo2,
+#photo3,
+#photo4,
+#photo5{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#text15,
+#text18,
+#text21,
+#text24{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+#text16,
+#text19,
+#text22,
+#text25{
+    text-align: center;
+    padding: 10px;
+}
+
+#text17,
+#text20,
+#text23,
+#text26{
+    text-align: center;
+    color: rgb(42, 73, 11);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* GALLERY */
+
+.bgclass4{
+    background-color: antiquewhite;
+    padding-bottom: 60px;
+}
+
+.box2{
+    width: 300px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.photo6{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.text29{
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* REVIEWS */
+
+.main-continer2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.box3{
+    width: 350px;
+    background-color: rgb(44, 36, 36);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text32{
+    color: white;
+}
+
+.text33{
+    color: orange;
+    margin-top: 10px;
+}
+
+/* CONTACT */
+
+.bgclass6{
+    background-color: aliceblue;
+    padding: 50px 30px;
+}
+
+.text34{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#text35{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.name,
+#feedback{
+    width: 320px;
+    padding: 12px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#feedback{
+    height: 120px;
+    resize: none;
+}
+
+#submit1{
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.bgclass7{
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+#company-name2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#textlast{
+    color: gray;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .header1{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .nav1{
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    #text2{
+        font-size: 50px;
+    }
+
+    #text5,
+    #text14,
+    #text28,
+    #text31{
+        font-size: 40px;
+    }
+
+    .exp1{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .name,
+    #feedback{
+        width: 100%;
+        max-width: 350px;
+    }
+}
